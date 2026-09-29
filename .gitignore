@@ -1,0 +1,33 @@
+# ---------- Environment files ----------
+# Never commit real secrets. Only .env.example is tracked.
+.env
+.env.local
+.env.*.local
+
+# ---------- Python bytecode ----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------- Virtual environment ----------
+# Machine-specific, huge, never commit.
+venv/
+env/
+.venv/
+
+# ---------- Testing / coverage ----------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---------- Type checkers / linters ----------
+.mypy_cache/
+.ruff_cache/
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+.DS_Store
+
+# ---------- Logs ----------
+*.log
